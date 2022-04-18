@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>netflix-release</name>
-	      <url>http://172.31.27.187:2000/repository/netflix-release/</url>
+	      <url>http://54.196.177.194:2000/repository/netflix-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>netflix-snapshot</name>
-	      <url>http://172.31.27.187:2000/repository/netflix-snapshot/</url>
+	      <url>http://54.196.177.194:2000/repository/netflix-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
