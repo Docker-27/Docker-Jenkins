@@ -97,14 +97,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://172.31.18.29:8081/repository/ebay-bts-releases/</url>
+	      <name>nexus-release</name>
+	      <url>http://54.196.177.194:2000/repository/netflix-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Netflix-snapshot</name>
-	      <url>http://3.85.219.255:3000/repository/Netflix-snapshot/</url>
+	      <name>netflix-snapshot</name>
+	      <url>http://54.196.177.194:2000/repository/netflix-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
