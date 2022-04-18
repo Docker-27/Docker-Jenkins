@@ -97,7 +97,7 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>nexus-release</name>
+	      <name>netflix-release</name>
 	      <url>http://54.196.177.194:2000/repository/netflix-release/</url>
 	    </repository>
 	    
