@@ -20,9 +20,9 @@
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
-		<log4j.version>2.17.1</log4j.version>
-		<sonar.host.url>http://172.31.27.187:9000/</sonar.host.url>
-		<sonar.login>6343e4ed23093c755cafe14c88d02dc7aea21adb</sonar.login>
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://54.196.177.194:1000/</sonar.host.url>
+		<sonar.login>ea4167f42fd5751ae109fdaf56a291f01c355661</sonar.login>
 		<!-- sonar.password>admin123</sonar.password -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -44,13 +44,12 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-<!--
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
--->
 		</dependency>
 
 		<dependency>
@@ -61,7 +60,7 @@
 		</dependency>
 
 		<!-- compile dependencies -->
-<!--
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
@@ -77,7 +76,6 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
--->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -86,25 +84,27 @@
 		
 		<!-- provided dependencies -->
 
+		<!--
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>		
+		</dependency>
+                -->		
 	</dependencies>
 	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>netflix-release</name>
-	      <url>http://54.196.177.194:2000/repository/netflix-release/</url>
+	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <url> http://172.31.18.29:8081/repository/ebay-bts-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>netflix-snapshot</name>
-	      <url>http://54.196.177.194:2000/repository/netflix-snapshot/</url>
+	      <name>Netflix-snapshot</name>
+	      <url>http://3.85.219.255:3000/repository/Netflix-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
