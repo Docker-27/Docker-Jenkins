@@ -104,7 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>netflix-snapshot</name>
-	      <url>http://54.196.177.194:2000/repository/netflix-snapshot/</url>
+	      <url>http://3.93.163.230:5000/repository/netflix-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
